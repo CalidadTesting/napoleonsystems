@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="326735" started-at="2020-06-15T23:30:55Z" finished-at="2020-06-15T23:36:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="326735" started-at="2020-06-15T23:30:55Z" finished-at="2020-06-15T23:36:22Z">
+      <class name="co.com.napoleonsystems.ClasePrincipal">
+        <test-method status="PASS" signature="ingresaralapagina()[pri:0, instance:co.com.napoleonsystems.ClasePrincipal@2aafb23c]" name="ingresaralapagina" duration-ms="50710" started-at="2020-06-15T18:30:55Z" finished-at="2020-06-15T18:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresaralapagina -->
+        <test-method status="PASS" signature="pruebauno()[pri:1, instance:co.com.napoleonsystems.ClasePrincipal@2aafb23c]" name="pruebauno" duration-ms="20620" started-at="2020-06-15T18:31:46Z" finished-at="2020-06-15T18:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebauno -->
+        <test-method status="PASS" signature="pruebados()[pri:2, instance:co.com.napoleonsystems.ClasePrincipal@2aafb23c]" name="pruebados" duration-ms="19757" started-at="2020-06-15T18:32:06Z" finished-at="2020-06-15T18:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebados -->
+        <test-method status="PASS" signature="pruebatres()[pri:3, instance:co.com.napoleonsystems.ClasePrincipal@2aafb23c]" name="pruebatres" duration-ms="22059" started-at="2020-06-15T18:32:26Z" finished-at="2020-06-15T18:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebatres -->
+        <test-method status="FAIL" signature="pruebacuatro()[pri:4, instance:co.com.napoleonsystems.ClasePrincipal@2aafb23c]" name="pruebacuatro" duration-ms="14386" started-at="2020-06-15T18:32:48Z" finished-at="2020-06-15T18:33:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Rs.600> but was:<[[ChromeDriver: chrome on WINDOWS (ea5810aada6eba3cca8d9c6597b89198)] -> xpath: /html[1]/body[1]/center[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[4]]]]><![CDATA[>expected:<Rs.600> but was:<[[ChromeDriver: chrome on WINDOWS (ea5810aada6eba3cca8d9c6597b89198)] -> xpath: /html[1]/body[1]/center[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[4]]><![CDATA[]]]]><![CDATA[>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Rs.600> but was:<[[ChromeDriver: chrome on WINDOWS (ea5810aada6eba3cca8d9c6597b89198)] -> xpath: /html[1]/body[1]/center[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[4]]]]><![CDATA[>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at co.com.napoleonsystems.ValidacionPuntoCuatro.validacionpuntocuatro(ValidacionPuntoCuatro.java:75)
+	at co.com.napoleonsystems.ClasePrincipal.pruebacuatro(ClasePrincipal.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebacuatro -->
+        <test-method status="PASS" signature="pruebacinco()[pri:5, instance:co.com.napoleonsystems.ClasePrincipal@2aafb23c]" name="pruebacinco" duration-ms="199111" started-at="2020-06-15T18:33:03Z" finished-at="2020-06-15T18:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebacinco -->
+      </class> <!-- co.com.napoleonsystems.ClasePrincipal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
